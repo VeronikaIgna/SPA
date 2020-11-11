@@ -1,0 +1,13 @@
+﻿
+    <h1> Все услуги</h1>
+    <h3>@Model.currCategory</h3>
+    @{
+        foreach (var service in Model.AllService)
+        {
+            <div>
+                <h2> Наименование услуги: @service.name  </h2>
+                <p> Стоимость услуги: @service.price.ToString("c")</p>
+            </div>
+
+        }
+     }
