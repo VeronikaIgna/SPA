@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SPA.Data.Mocks;
 
 namespace SPA.Data.Mocks
 {
@@ -16,17 +17,18 @@ namespace SPA.Data.Mocks
             {
                 return new List<Service>
                 {
-                    new Service { name = " SPA-уход 'Нежность лотоса'", 
-                                  img = "" , price = 6700, isFavourite = true, 
+                    new Service { name = " SPA-уход Нежность лотоса", 
+                                  img = "/img/12.png" , 
+                                  price = 6700, isFavourite = true, 
                                   Category = _CategoryService.AllCategories.First() },
                     new Service { name = " Шоколадное обертывание", 
-                                  img = "" , 
+                                  img = "/img/spa.png" , 
                                   price = 5000, isFavourite = true, 
                                   Category = _CategoryService.AllCategories.First()}
                 };
             }
         }
-        public IEnumerable<Service> getFavService { get; set; }
+        public IEnumerable<Service> getFavServices { get; set; }
 
         public Service getObjectService(int serviceId)
         {

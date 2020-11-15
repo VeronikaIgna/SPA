@@ -1,0 +1,7 @@
+﻿@model Service
+    <div class="col-lg-3">
+    <img class="img-thumbnail" scr="@Model.img" alt="@Model.name" />
+    <h2> Название услуги: @Model.name  </h2>
+    <p> Стоимость услуги: @Model.price.ToString("c")</p>
+    <p><a class="btn btn-dark" asp-controller="ShopService" asp-action="addToService" asp-route-id="@Model.id">Записаться </a></p>
+</div>

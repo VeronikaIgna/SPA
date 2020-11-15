@@ -10,7 +10,7 @@ namespace SPA.Data.Interfaces
     public interface IAllService
     {
         IEnumerable<Service> Services { get;  }
-        IEnumerable<Service> getFavService { get; set; }
+        IEnumerable<Service> getFavServices { get;}
         Service getObjectService(int serviceId);
 
     }

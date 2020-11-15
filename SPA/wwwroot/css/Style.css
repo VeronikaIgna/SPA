@@ -1,3 +1,1192 @@
-﻿body {
-    background: #FDF5E9
+
+body {	
+background:#9B7845;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  overflow-x: hidden;
+  
 }
+a {
+	color:#FDF5E9;
+	text-decoration: none;
+}
+/* главная картинка */
+.mainimage
+{
+position: absolute;
+width: 1920px;
+height: 1288px;
+left: 0px;
+top: 0px;
+background:linear-gradient(179.99deg, #000000 0.6%, rgba(0, 0, 0, 0) 30.12%),  url(images/main.png);
+/*background-position: center center;*/
+/*background-size: cover;*/
+/*background-attachment: fixed;*/ 
+background-repeat: no-repeat;
+}
+
+/* Открой для себя Территорию удовольствия */
+.maintext
+{
+position: absolute;
+width: 939px;
+height: 188px;
+left: 116.17px;
+top: 278px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 75px;
+/* or 107% */
+text-align: center;
+
+color: #FDF5E9;
+}
+
+
+/* Rectangle 1 */
+.buttonrecord
+{
+position: absolute;
+width: 567px;
+height: 117px;
+left: 295.17px;
+top: 683px;
+
+background: linear-gradient(82.03deg, #725D3E 16.91%, #D5B688 74.81%);
+border-radius: 40px;
+}
+
+/* Запись онлайн */
+.textforrecording
+{
+position: absolute;
+width: 499px;
+height: 66px;
+left: 440px;
+top: 708px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 68px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FDF5E9;
+}
+
+
+/* Здесь вы сможете получить весь спектр услуг по оздоровлению, омоложению организма. отдыху и релаксации на самом высоком европейском уровне */
+.textinfo
+{
+position: absolute;
+width: 930px;
+height: 179px;
+left: 120.17px;
+top: 475px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #FFFBF4;
+}
+
+
+/* Здесь вы сможете получить весь спектр услуг по оздоровлению, омоложению организма. отдыху и релаксации на самом высоком европейском уровне */
+
+.panelforlink
+{
+/* О НАC УСЛУГИ СЕРТИФИКАТЫ КОНТАКТЫ */
+
+position: absolute;
+width: 688px;
+height: 75px;
+left: 790.17px;
+top: 22px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 75px;
+/* identical to box height, or 312% */
+text-align: center;
+
+color: #FDF5E9;
+}
+
+
+/* Мы работаем: с 9:00 до 22:00 */
+.timework
+{	
+position: absolute;
+width: 365px;
+height: 40px;
+left: 1470px;
+top: 26px;
+
+font-family: Petrona;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 75px;
+/* or 375% */
+text-align: center;
+
+color: #E1CEB0;
+}
+
+/* картинка спа день */
+.spa-day-image
+{
+position: absolute;
+width: 830px;
+height: 536px;
+left: 970px;
+top: 1752px;
+
+background: linear-gradient(0.3deg, #000000 -10.22%, rgba(0, 0, 0, 0) 55.45%), url(images/spa.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+/* Rectangle 2 */
+.buttonserv1
+{
+position: absolute;
+width: 307px;
+height: 95px;
+left: 1242px;
+top: 1511px;
+
+border: 4px solid #9B7845;
+box-sizing: border-box;
+border-radius: 40px;
+}
+/* Rectangle 3 */
+.buttonserv2
+{
+position: absolute;
+width: 307px;
+height: 95px;
+left: 383px;
+top: 2165px;
+
+border: 4px solid #9B7845;
+box-sizing: border-box;
+border-radius: 40px;
+}
+/* Посмотреть */
+.look1
+{
+position: absolute;
+width: 280px;
+height: 95px;
+left: 1296px;
+top: 1511px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9B7845;
+}
+/* Посмотреть */
+.look2
+{
+position: absolute;
+width: 280px;
+height: 95px;
+left: 436px;
+top: 2165px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9B7845;
+}
+
+/* Балийский SPA-кабинет */
+.balspa-kab
+{
+position: absolute;
+width: 830px;
+height: 90px;
+left: 970px;
+top: 1130px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+text-align: center;
+
+color: #725D3E;
+}
+
+/* SPA-день */
+.spa-kab
+{
+position: absolute;
+width: 830px;
+height: 62px;
+left: 120px;
+top: 1778px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+text-align: center;
+
+color: #725D3E;
+}
+
+/* Балийский массаж и спа процедуры в исполнении дипломированных специалистов с острова Бали. */
+.balspa-text
+{
+position: absolute;
+width: 830px;
+height: 207px;
+left: 970px;
+top: 1304px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+/* Прекрасная возможность посвятить уходу за собой целый день или провести незабываемое время с любимым человеком. */
+.spa-text
+{
+position: absolute;
+width: 830px;
+height: 184px;
+left: 130px;
+top: 1895px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+/* картинка спа кабинет */
+.spa-kab-image
+{
+position: absolute;
+width: 830px;
+height: 536px;
+left: 120px;
+top: 1116px;
+
+background: linear-gradient(360deg, #000000 -18.47%, rgba(0, 0, 0, 0) 41.98%), url(images/spa3.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+
+/* Rectangle 4 */
+.buttonserv4
+{		
+position: absolute;
+width: 307px;
+height: 95px;
+left: 1233px;
+top: 2840px;
+
+border: 4px solid #9B7845;
+box-sizing: border-box;
+border-radius: 40px;
+}
+
+/* Rectangle 5 */
+.buttonserv5
+{
+position: absolute;
+width: 307px;
+height: 95px;
+left: 392px;
+top: 3430px;
+
+border: 4px solid #9B7845;
+box-sizing: border-box;
+border-radius: 40px;
+
+}
+/* Посмотреть */
+.look3
+{
+position: absolute;
+width: 280px;
+height: 95px;
+left: 1287px;
+top: 2840px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9B7845;
+}
+
+
+/* Классический массаж */
+.classic-massage
+{
+position: absolute;
+width: 830px;
+height: 84px;
+left: 970px;
+top: 2443px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Косметология */
+.cosmetology
+{
+position: absolute;
+width: 830px;
+height: 84px;
+left: 120px;
+top: 3105px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Один из лучших способов поддержания бодрости, хорошего самочувствия и профилактики различных заболеваний. */
+.classic-massage-text
+{
+position: absolute;
+width: 830px;
+height: 157px;
+left: 970px;
+top: 2631px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Профессиональные программы ухода за кожей лица и тела, инъекционные методики. */
+.cosmetology-text
+{
+position: absolute;
+width: 830px;
+height: 143px;
+left: 121px;
+top: 3230px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* картинка классический массаж */
+.classic-massage-image
+{
+position: absolute;
+width: 830px;
+height: 536px;
+left: 120px;
+top: 2443px;
+
+background: linear-gradient(359.72deg, #000000 -16.93%, rgba(0, 0, 0, 0) 60.7%), url(images/classicmassage.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* картинка косметология 1 */
+.cosmetology-image
+{
+position: absolute;
+width: 830px;
+height: 536px;
+left: 970px;
+top: 3105px;
+
+background: linear-gradient(359.72deg, #000000 -16.47%, rgba(0, 0, 0, 0) 51.51%), url(images/cosm.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* Посмотреть */
+.look4
+{
+position: absolute;
+width: 280px;
+height: 95px;
+left: 445px;
+top: 3430px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9B7845;
+}
+
+
+
+/* Rectangle 6 */
+.buttonserv6
+{
+position: absolute;
+width: 307px;
+height: 95px;
+left: 1233px;
+top: 4168px;
+
+border: 4px solid #9B7845;
+box-sizing: border-box;
+border-radius: 40px;
+}
+
+/* Rectangle 7 */
+.buttonserv7
+{
+position: absolute;
+width: 307px;
+height: 95px;
+left: 392px;
+top: 4851px;
+
+border: 4px solid #9B7845;
+box-sizing: border-box;
+border-radius: 40px;
+}
+
+/* Посмотреть */
+.look5
+{
+position: absolute;
+width: 280px;
+height: 95px;
+left: 447px;
+top: 4851px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9B7845;
+}
+
+
+/* Маникюр/Педикюр */
+.maniqure
+{
+position: absolute;
+width: 830px;
+height: 84px;
+left: 970px;
+top: 3767px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Наращивание ресниц */
+.narashres
+{
+position: absolute;
+width: 830px;
+height: 84px;
+left: 120px;
+top: 4461px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Комплексный и полный выбор процедур по уходу за ногтями,кожей рук и ног. */
+.maniqure-text
+{
+position: absolute;
+width: 830px;
+height: 143px;
+left: 985px;
+top: 3938px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Мастера предлагают воспользоваться новинками и хорошо зарекомендовавшими себя идеями дизайна ресниц. */
+.narashres-text
+{
+position: absolute;
+width: 830px;
+height: 188px;
+left: 130px;
+top: 4604px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* картинка маникюр 1 */
+.maniqure-image
+{
+position: absolute;
+width: 830px;
+height: 568px;
+left: 120px;
+top: 3767px;
+
+background: linear-gradient(0deg, #000000 -17.61%, rgba(0, 0, 0, 0) 52.46%), url(images/maniqure.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* картинкаресницы 1 */
+.narashres-image
+{
+position: absolute;
+width: 830px;
+height: 536px;
+left: 970px;
+top: 4461px;
+
+background: linear-gradient(360deg, #000000 -26.12%, rgba(0, 0, 0, 0) 38.81%), url(images/narashres.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* Посмотреть */
+.look6
+{
+position: absolute;
+width: 280px;
+height: 95px;
+left: 1287px;
+top: 4168px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9B7845;
+}
+
+
+/* photo_2020-10-11_16-38-08 1 */
+.slave-image
+{
+position: absolute;
+width: 2217px;
+height: 1310px;
+left: 0px;
+top: 4997px;
+
+background: linear-gradient(178.08deg, #FFFFFF 1.36%, rgba(1, 1, 1, 0) 1.85%), url(images/slave.png);
+}
+
+/* Rectangle 1 */
+.slave-button
+{
+position: absolute;
+width: 527px;
+height: 117px;
+left: 385px;
+top: 5688px;
+
+background: linear-gradient(82.03deg, #725D3E 28%, #D5B688 85.89%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+/* Узнать подробнее */
+.slave-button-text
+{
+position: absolute;
+width: 531px;
+height: 117px;
+left: 466px;
+top: 5688px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 68px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FDF5E9;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Это отличный способ своим вниманием попасть в самое сердце! */
+.slave-text
+{
+position: absolute;
+width: 960px;
+height: 90px;
+left: 207px;
+top: 5466px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 40px;
+/* or 83% */
+text-align: center;
+
+color: #FDF5E9;
+}
+
+
+/* Сертификат в BeautySPA */
+.slave-maintext
+{
+position: absolute;
+width: 1113px;
+height: 103px;
+left: 120px;
+top: 5330px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 75px;
+line-height: 75px;
+/* or 100% */
+text-align: center;
+
+color: #FDF5E9;
+}
+
+
+/* Наши акции */
+.giftinfo-text
+{
+position: absolute;
+width: 1114px;
+height: 103px;
+left: 403px;
+top: 6341px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 75px;
+line-height: 75px;
+/* or 100% */
+text-align: center;
+
+color: #9B7845;
+}
+
+
+/* Последнии выгодные предложения BeautySPA скидки и акции */
+.lastgift-text
+{
+position: absolute;
+width: 870px;
+height: 91px;
+left: 525px;
+top: 6444px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* СПА для двоих */
+.spafortwo-text
+{
+position: absolute;
+width: 547px;
+height: 91px;
+left: 120px;
+top: 7054px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* День рождения в BeautySPA */
+.brithdayspa-text
+{
+position: absolute;
+width: 548px;
+height: 91px;
+left: 1252px;
+top: 7054px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Выходные в BeautySPA со скидкой 15% */
+.spaskidki-text
+{
+position: absolute;
+width: 548px;
+height: 91px;
+left: 687px;
+top: 7554px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Массаж лица */
+.massagelica-text
+{
+position: absolute;
+width: 546px;
+height: 91px;
+left: 687px;
+top: 7054px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* massage-1929064_1920 1 */
+.massagelica-image
+{
+position: absolute;
+width: 546px;
+height: 400px;
+left: 687px;
+top: 6620px;
+
+background: url(images/massagelica.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* photo_2020-10-11_18-48-55 1 */
+.massagefortwo-image
+{
+position: absolute;
+width: 547px;
+height: 400px;
+left: 120px;
+top: 6620px;
+
+background: url(images/massagefortwo.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* photo_2020-10-11_18-48-56 1 */
+.brithdayspa-image
+{
+position: absolute;
+width: 547px;
+height: 400px;
+left: 1253px;
+top: 6620px;
+
+background: url(images/brithdayspa.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* photo_2020-10-11_18-48-57 1 */
+.spaskidki-image
+{
+position: absolute;
+width: 585px;
+height: 397px;
+left: 667px;
+top: 7123px;
+
+background: url(images/spaskidki.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+/* Rectangle 8 */
+.lowpanel
+{
+position: absolute;
+width: 1920px;
+height: 409px;
+left: 0px;
+top: 7695px;
+
+background: linear-gradient(359.51deg, #9B7845 49.06%, rgba(225, 206, 176, 0) 115.23%);
+}
+
+/* О НАC УСЛУГИ СЕРТИФИКАТЫ КОНТАКТЫ ОТЗЫВЫ */
+.lowpanellinks
+{
+position: absolute;
+width: 972px;
+height: 75px;
+left: 828px;
+top: 7727px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 75px;
+/* identical to box height, or 312% */
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Проспект Ленина, 21 Республика Татарстан, г.Казань */
+.address
+{
+position: absolute;
+width: 526px;
+height: 103px;
+left: 67px;
+top: 7963px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+/* or 125% */
+
+color: #271800;
+}
+
+
+/* Тел. +7(345)021-45-67 */
+.telephone
+{
+position: absolute;
+width: 399px;
+height: 32px;
+left: 67px;
+top: 7900px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+/* or 125% */
+
+color: #271800;
+}
+
+
+
+
+/*СТРАНИЦА ABOUT US / О  НАС *\
+
+/* Атмосфера Бали в центре Казани */
+.aboutus-maintext1
+{
+position: absolute;
+width: 1875px;
+height: 185px;
+left: 23px;
+top: 1000px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 75px;
+/* or 78% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* photo_2020-10-15_09-44-13 1 */
+.aboutus1-image1
+{
+position: absolute;
+width: 1920px;
+height: 820px;
+left: 0px;
+top: 2247px;
+
+background: linear-gradient(180deg, #FFFFFF 7.79%, rgba(251, 237, 230, 0) 86.72%), url(images/aboutus1.png);
+}
+
+/* photo_2020-10-15_09-44-13 1 */
+.aboutus1-image2
+{
+position: absolute;
+width: 1920px;
+height: 428px;
+left: 0px;
+top: 1000px;
+
+background: linear-gradient(180deg, #FFFFFF 7.79%, rgba(251, 237, 230, 0) 86.72%), url(images/aboutus1.png);
+}
+
+/* В SPA-центрах BeautySPA работают исключительно высококвалифицированные мастера из Китая и Тибета, которые регулярно проходят переаттестацию, посещают семинары и повышают свою квалификацию. Обращаем Ваше внимание, что все азиатские процедуры выполняются на косметических продуктах из Китая, качество которых постоянно контролируется. Партнерами SPA-салонов BeautySPA являются профессиональные косметические компании, средства которых специалисты BeautySPA подбирают с учетом индивидуальных особенностей, типа кожи и предпочтений гостя. Сеть SPA-салонов BeautySPA является неоднократным участником и призером престижных Международных Премий в области красоты и здоровья. */
+.aboutus-text1
+{
+position: absolute;
+width: 1680px;
+height: 636px;
+left: 125px;
+top: 2396px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #9B7845;
+}
+
+
+/* Гарантия качества */
+..aboutus-maintext2
+{
+position: absolute;
+width: 1680px;
+height: 91px;
+left: 125px;
+top: 2276px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+/* or 117% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #725D3E;
+}
+
+
+/* Забудьте об утомительных перелетах, о языковых барьерах и акклиматизации, позвольте себе отпуск, не покидая черты нашего города! Звуки спокойной музыки, витание ароматов экзотических эфирных масел, мерцание свечей и удивительные ритуалы красоты и здоровья унесут Вас от городской суеты в райский уголок, где все для Вас и ради Вас. */
+.aboutus-text2
+{
+position: absolute;
+width: 1680px;
+height: 227px;
+left: 120px;
+top: 1172px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #9B7845;
+}
+
+
+/* photo_2020-10-11_16-38-07 1 */
+.aboutus2-image1
+{
+position: absolute;
+width: 1920px;
+height: 819px;
+left: 0px;
+top:1428px;
+bottom: 1229px;
+
+background: linear-gradient(180deg, #FFFFFF 1%, rgba(1, 1, 1, 0) 1.2%), url(images/aboutus2.png);
+}
+
+/* Мы предлагаем своим гостям сбалансированный пакет услуг по уходу за телом и лицом, основанный на эффективном комплексе SPA-процедур, уникальных массажных техниках, многовековом опыте аюрведы и восточных практик, а также последних разработках в области эстетической косметологии. */
+.aboutus-text3
+{
+position: absolute;
+width: 1680px;
+height: 227px;
+left: 120px;
+top: 1724px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 36px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+
+color: #FDF5E9;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+

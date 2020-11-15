@@ -4,15 +4,41 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link href="~/css/bootstrap.min.css.map rel="stylesheet" type="text/css" />
-    <link href="~/css/Style.css rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/Style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style1.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
-    <div>
+    <header>
+        <div class="panelforlink">
+            <a asp-controller="Home" asp-action ="Index">ГЛАВНАЯ</a>
+            <a href="aboutus.html">О НАC</a>
+            <a asp-controller="ShopService" asp-action="Index">ЗАПИСЬ</a>
+            <a href="/Service/List ">УСЛУГИ</a>
+            <a href=" ">СЕРТИФИКАТЫ</a> 
+           
+</div>
+
+        <div class="timework">Мы работаем: с 9:00 до 22:00</div>
+    
+    </header>
+    <div class=" container mt-5">
         @RenderBody()
     </div>
-    <div class="panelforlink"><a href="index.html">ГЛАВНАЯ</a> <a href="aboutus.html">О НАC</a> УСЛУГИ СЕРТИФИКАТЫ КОНТАКТЫ</div>
-    <div class="timework">Мы работаем: с 9:00 до 22:00</div>
+    <footer class="container">
+        <div class="lowpanel"></div>
+        <div class="lowpanellinks">
+        <a href="">О НАC </a>
+        <a href="">УСЛУГИ </a>
+        <a href="">СЕРТИФИКАТЫ </a> 
+        <a href="">КОНТАКТЫ </a>
+        <a href="">ОТЗЫВЫ </a> </div>
+        <div class="address">Проспект Ленина, 21 Республика Татарстан, г.Казань</div>
+        <div class="telephone">Тел. +7(345)021-45-67</div>
+        <div class=""></div>
+    </footer>
+
     <script scr="~/js/bootstrap.min.js.map"></script>
 </body>
 </html>
