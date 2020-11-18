@@ -42,7 +42,7 @@ namespace SPA.Data.Models
             appDBContent.SaveChanges();
         }
 
-        public List<ShopServiceItem> GetServiceItems()
+        public List<ShopServiceItem> getServiceItems()
         {
             return appDBContent.ShopServiceItem.Where(c => c.ShopServiceId == ShopServiceId).Include(s => s.service).ToList();
         }

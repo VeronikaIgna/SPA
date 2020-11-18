@@ -1,6 +1,6 @@
 
 body {	
-background:#9B7845;
+background:#FDF5E9;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -12,18 +12,17 @@ a {
 	text-decoration: none;
 }
 /* главная картинка */
-.mainimage
-{
-position: absolute;
-width: 1920px;
-height: 1288px;
-left: 0px;
-top: 0px;
-background:linear-gradient(179.99deg, #000000 0.6%, rgba(0, 0, 0, 0) 30.12%),  url(images/main.png);
-/*background-position: center center;*/
-/*background-size: cover;*/
-/*background-attachment: fixed;*/ 
-background-repeat: no-repeat;
+.mainimage {
+	position: absolute;
+	width: 1920px;
+	height: 1288px;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(179.99deg, #000000 0.6%, rgba(0, 0, 0, 0) 30.12%), url("../img/main.png");
+	/*background-position: center center;*/
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
 }
 
 /* Открой для себя Территорию удовольствия */
@@ -156,7 +155,7 @@ height: 536px;
 left: 970px;
 top: 1752px;
 
-background: linear-gradient(0.3deg, #000000 -10.22%, rgba(0, 0, 0, 0) 55.45%), url(images/spa.png);
+background: linear-gradient(0.3deg, #000000 -10.22%, rgba(0, 0, 0, 0) 55.45%), url("../img/spa.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -307,7 +306,7 @@ text-align: center;
 color: #725D3E;
 }
 
-/* картинка спа кабинет */
+/* картинка балийского спа кабинета */
 .spa-kab-image
 {
 position: absolute;
@@ -316,7 +315,7 @@ height: 536px;
 left: 120px;
 top: 1116px;
 
-background: linear-gradient(360deg, #000000 -18.47%, rgba(0, 0, 0, 0) 41.98%), url(images/spa3.png);
+background: linear-gradient(360deg, #000000 -18.47%, rgba(0, 0, 0, 0) 41.98%), url("../img/spa3.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -465,7 +464,7 @@ height: 536px;
 left: 120px;
 top: 2443px;
 
-background: linear-gradient(359.72deg, #000000 -16.93%, rgba(0, 0, 0, 0) 60.7%), url(images/classicmassage.png);
+background: linear-gradient(359.72deg, #000000 -16.93%, rgba(0, 0, 0, 0) 60.7%), url("../img/classicmassage.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -479,7 +478,7 @@ height: 536px;
 left: 970px;
 top: 3105px;
 
-background: linear-gradient(359.72deg, #000000 -16.47%, rgba(0, 0, 0, 0) 51.51%), url(images/cosm.png);
+background: linear-gradient(359.72deg, #000000 -16.47%, rgba(0, 0, 0, 0) 51.51%), url("../img/cosm.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -650,7 +649,7 @@ height: 568px;
 left: 120px;
 top: 3767px;
 
-background: linear-gradient(0deg, #000000 -17.61%, rgba(0, 0, 0, 0) 52.46%), url(images/maniqure.png);
+background: linear-gradient(0deg, #000000 -17.61%, rgba(0, 0, 0, 0) 52.46%), url("../img/maniqure.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -664,7 +663,7 @@ height: 536px;
 left: 970px;
 top: 4461px;
 
-background: linear-gradient(360deg, #000000 -26.12%, rgba(0, 0, 0, 0) 38.81%), url(images/narashres.png);
+background: linear-gradient(360deg, #000000 -26.12%, rgba(0, 0, 0, 0) 38.81%), url("../img/narashres.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -691,7 +690,7 @@ color: #9B7845;
 }
 
 
-/* photo_2020-10-11_16-38-08 1 */
+/* photo_2020-10-11_16-38-08 1 Сертификат*/
 .slave-image
 {
 position: absolute;
@@ -700,7 +699,7 @@ height: 1310px;
 left: 0px;
 top: 4997px;
 
-background: linear-gradient(178.08deg, #FFFFFF 1.36%, rgba(1, 1, 1, 0) 1.85%), url(images/slave.png);
+background: linear-gradient(178.08deg, #FFFFFF 1.36%, rgba(1, 1, 1, 0) 1.85%), url("../img/slave.png");
 }
 
 /* Rectangle 1 */
@@ -917,7 +916,7 @@ height: 400px;
 left: 687px;
 top: 6620px;
 
-background: url(images/massagelica.png);
+background: url("../img/massagelica.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -931,7 +930,7 @@ height: 400px;
 left: 120px;
 top: 6620px;
 
-background: url(images/massagefortwo.png);
+background: url("../img/massagefortwo.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -945,7 +944,7 @@ height: 400px;
 left: 1253px;
 top: 6620px;
 
-background: url(images/brithdayspa.png);
+background: url("../img/brithdayspa.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -959,7 +958,7 @@ height: 397px;
 left: 667px;
 top: 7123px;
 
-background: url(images/spaskidki.png);
+background: url("../img/spaskidki.png");
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 16px;
 }
@@ -1041,29 +1040,6 @@ color: #271800;
 
 /*СТРАНИЦА ABOUT US / О  НАС *\
 
-/* Атмосфера Бали в центре Казани */
-.aboutus-maintext1
-{
-position: absolute;
-width: 1875px;
-height: 185px;
-left: 23px;
-top: 1000px;
-
-font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 96px;
-line-height: 75px;
-/* or 78% */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #725D3E;
-}
-
-
 /* photo_2020-10-15_09-44-13 1 */
 .aboutus1-image1
 {
@@ -1073,7 +1049,7 @@ height: 820px;
 left: 0px;
 top: 2247px;
 
-background: linear-gradient(180deg, #FFFFFF 7.79%, rgba(251, 237, 230, 0) 86.72%), url(images/aboutus1.png);
+background: linear-gradient(180deg, #FFFFFF 7.79%, rgba(251, 237, 230, 0) 86.72%), url("../img/aboutus1.png");
 }
 
 /* photo_2020-10-15_09-44-13 1 */
@@ -1085,37 +1061,53 @@ height: 428px;
 left: 0px;
 top: 1000px;
 
-background: linear-gradient(180deg, #FFFFFF 7.79%, rgba(251, 237, 230, 0) 86.72%), url(images/aboutus1.png);
+background: linear-gradient(180deg, #FFFFFF 7.79%, rgba(251, 237, 230, 0) 86.72%), url("../img/aboutus1.png");
+}
+
+/* Атмосфера Бали в центре Казани */
+.aboutus-maintext1 {
+	position: absolute;
+	width: 1875px;
+	height: 185px;
+	left: 420px;
+	top: 1000px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 75px;
+	/* or 78% */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #725D3E;
 }
 
 /* В SPA-центрах BeautySPA работают исключительно высококвалифицированные мастера из Китая и Тибета, которые регулярно проходят переаттестацию, посещают семинары и повышают свою квалификацию. Обращаем Ваше внимание, что все азиатские процедуры выполняются на косметических продуктах из Китая, качество которых постоянно контролируется. Партнерами SPA-салонов BeautySPA являются профессиональные косметические компании, средства которых специалисты BeautySPA подбирают с учетом индивидуальных особенностей, типа кожи и предпочтений гостя. Сеть SPA-салонов BeautySPA является неоднократным участником и призером престижных Международных Премий в области красоты и здоровья. */
-.aboutus-text1
-{
-position: absolute;
-width: 1680px;
-height: 636px;
-left: 125px;
-top: 2396px;
-
-font-family: Montserrat;
-font-style: italic;
-font-weight: 500;
-font-size: 36px;
-line-height: 45px;
-/* or 125% */
-text-align: center;
-
-color: #9B7845;
+.aboutus-text1 {
+	position: absolute;
+	width: 1680px;
+	height: 636px;
+	left: 125px;
+	top: 2396px;
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 45px;
+	/* or 125% */
+	text-align: center;
+	color: #9B7845;
 }
 
 
 /* Гарантия качества */
-..aboutus-maintext2
+.aboutus-maintext2
 {
 position: absolute;
 width: 1680px;
 height: 91px;
-left: 125px;
+left: 1px;
 top: 2276px;
 
 font-family: Playfair Display;
@@ -1163,7 +1155,7 @@ left: 0px;
 top:1428px;
 bottom: 1229px;
 
-background: linear-gradient(180deg, #FFFFFF 1%, rgba(1, 1, 1, 0) 1.2%), url(images/aboutus2.png);
+background: linear-gradient(180deg, #FFFFFF 1%, rgba(1, 1, 1, 0) 1.2%), url("../img/aboutus2.png");
 }
 
 /* Мы предлагаем своим гостям сбалансированный пакет услуг по уходу за телом и лицом, основанный на эффективном комплексе SPA-процедур, уникальных массажных техниках, многовековом опыте аюрведы и восточных практик, а также последних разработках в области эстетической косметологии. */
@@ -1187,6 +1179,35 @@ color: #FDF5E9;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+/* СТРАНИЦА SERVICES / УСЛУГИ */
 
+/* Services image */
+.servicesimage {
+	position: absolute;
+	width: 1920px;
+	height: 1119px;
+	left: 0%;
+	top: 0px;
+	background: linear-gradient(180deg, #312C2C 0%, rgba(255, 255, 255, 0) 100%), url("../img/servicesimage.png");
+}
+
+
+/* Наши услуги */
+.serviestext {
+	position: absolute;
+	width: 1680px;
+	height: 185px;
+	left: 8%;
+	top: 409px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 75px;
+	/* or 78% */
+	text-align: center;
+	color: #FDF5E9;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 

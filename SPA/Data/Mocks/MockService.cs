@@ -18,7 +18,7 @@ namespace SPA.Data.Mocks
                 return new List<Service>
                 {
                     new Service { name = " SPA-уход Нежность лотосаа", 
-                                  img = "/img/12.png" , 
+                                  img = "/img/slave.png" , 
                                   price = 6700, isFavourite = true, 
                                   Category = _CategoryService.AllCategories.First() },
                     new Service { name = " Шоколадное обертывание", 

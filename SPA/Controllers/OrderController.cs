@@ -25,7 +25,7 @@ namespace SPA.Controllers
             [HttpPost]
         public IActionResult Checkout(Order order)
         {
-            shopService.listShopItems = shopService.GetServiceItems();
+            shopService.listShopItems = shopService.getServiceItems();
             if(shopService.listShopItems.Count == 0)
             {
                 ModelState.AddModelError("","Должны находиться услуги!");

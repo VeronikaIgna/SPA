@@ -20,11 +20,23 @@ namespace SPA.Controllers
 
         public ViewResult Index()
         {
-            var homeServices = new HomeViewModel
-            {
-                favServices = _serRep.getFavServices
-            };
+            var homeServices = new HomeViewModel();
+            //{
+            //    favServices = _serRep.getFavServices
+            //};
             return View(homeServices);
         }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Services()
+        {
+            return View();
+        }
     }
+
+
 }

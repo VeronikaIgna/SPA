@@ -38,7 +38,7 @@ namespace SPA.Data.Models
         [BindNever]
         [ScaffoldColumn(false)]
         public DateTime orderTime { get; set; }
-        public List<OrderDetail> orderDetail { get; set; }
+        public List<OrderDetail> orderDetails { get; set; }
 
     }
 }

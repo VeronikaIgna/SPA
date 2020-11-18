@@ -2,11 +2,11 @@
 <div class="container">
     @foreach (var el in Model.shopService.listShopItems)
     {
-        <div class=" alert alert-warning mt-3" >
+        <div class="alert alert-warning mt-3" >
             <b> Услуга:</b> @el.service.name <br />
             <b> Стоимость: </b> @el.service.price.ToString("c")
         </div>
     }
     <hr />
-    <a class=" btn btn-danger" asp-controller="Order" asp-action="Checkout">Записаться</a>
+    <a class="btn btn-danger mb-5" asp-controller="Order" asp-action="Checkout">Записаться</a>
 </div>

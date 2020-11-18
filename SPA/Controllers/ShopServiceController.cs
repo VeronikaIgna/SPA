@@ -21,7 +21,7 @@ namespace SPA.Controllers
 
         public ViewResult Index()
         {
-            var items = _shopService.GetServiceItems();
+            var items = _shopService.getServiceItems();
             _shopService.listShopItems = items;
 
             var obj = new ShopServiceViewModel
