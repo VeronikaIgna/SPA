@@ -20,6 +20,7 @@ namespace SPA
     {
         private IConfigurationRoot _confString;
 
+
         public Startup(IHostingEnvironment hostEnv)
         {
             _confString = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath).AddJsonFile("dbsettings.json").Build();
